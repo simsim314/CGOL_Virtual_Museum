@@ -1,0 +1,9 @@
+html, body { margin: 0; height: 100%; overflow: hidden; background: #05070a; color: #e8eef8; font-family: Inter, Arial, sans-serif; }
+#app { width: 100vw; height: 100vh; display: block; }
+#hud { position: fixed; top: 14px; left: 14px; z-index: 10; background: rgba(5,8,14,.62); border: 1px solid rgba(126,175,255,.35); border-radius: 10px; padding: 10px 12px; max-width: 580px; backdrop-filter: blur(5px); }
+#roomLabel { font-size: 18px; font-weight: 700; margin-bottom: 6px; color: #9bc2ff; }
+#controls, #status { font-size: 13px; line-height: 1.4; color: #d5deec; }
+#overlay { position: fixed; right: 16px; top: 16px; z-index: 15; width: 360px; background: rgba(2,4,9,.85); border: 1px solid rgba(128,163,246,.45); border-radius: 12px; padding: 12px 14px; }
+#overlay.hidden { display: none; }
+#overlay h2 { margin: 0 0 8px; color: #9bc2ff; }
+#overlay p { margin: 6px 0; color: #d8e4ff; }
